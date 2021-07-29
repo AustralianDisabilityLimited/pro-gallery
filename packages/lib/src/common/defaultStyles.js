@@ -42,6 +42,7 @@ const defaultStyles = Object.assign({}, coreStyles, {
   slideTransition: GALLERY_CONSTS.slideTransition.ease,
   useMaxDimensions: false,
   enableVideoPlaceholder: true,
+  item: {video: {playOn: 'hover'}},
 });
 
 export default defaultStyles;
