@@ -60,7 +60,6 @@ function expectedStyles() {
     scrollSnap: false,
     itemClick: 'nothing',
     fullscreen: true,
-    videoPlay: 'hover',
     scrollAnimation: 'NO_EFFECT',
     slideAnimation: 'SCROLL',
     scrollDirection: 0,
@@ -105,5 +104,6 @@ function expectedStyles() {
     slideTransition: 'cubic-bezier(0.46,0.1,0.25,1)',
     useMaxDimensions: false,
     enableVideoPlaceholder: true,
+    item: { video: { playOn: 'hover' } },
   };
 }
